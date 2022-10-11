@@ -9,7 +9,7 @@ export function Post() {
             className={styles.avatar}
             src="https://github.com/gabjohann.png"
           />
-          <div className={styles.author}>
+          <div className={styles.authorInfo}>
             <strong>Lucas Johann</strong>
             <span>Mobile Developer</span>
           </div>
@@ -27,10 +27,12 @@ export function Post() {
           no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀
         </p>
         <p>
-          👉 <a href="">jane.design/doctorcare</a>
+          👉&nbsp;&nbsp;<a href="">jane.design/doctorcare</a>
         </p>
         <p>
-          <a href="">#novoprojeto #nlw #rocketseat</a>
+          <a href="">#novoprojeto</a>&nbsp;
+          <a href="">#nlw</a>&nbsp;
+          <a href="">#rocketseat</a>
         </p>
       </div>
     </article>
