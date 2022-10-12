@@ -8,3 +8,14 @@
   gap: 2rem;
   align-items: flex-start;
 }
+
+/* mobile */
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%; /* este valor precisa ser em percentual, considerando 16px = 100% */
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
